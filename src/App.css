@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items > ul > li{
+    padding: 10px;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+.card > img{
+    width: 100%;
+}
+.card > h3{
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
